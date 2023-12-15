@@ -21,7 +21,7 @@
             body {
               padding-top: 40px;
               padding-bottom: 40px;
-              background-color: #004643;
+              background-color: #0A81D1;
               display: flex;
               justify-content: center;
             }
@@ -32,30 +32,41 @@
                border-radius: 128px;
             }
             .thumbnail {
-              width: 48px;
-              height: 48px;
+              width: 44px;
+              height: 44px;
               border-radius: 48px;
               object-fit: cover;
-            } 
+              flex-wrap: wrap;
 
-            .name {
-              color: #fffffe;
+            } 
+            .thumbnail-links {
+              width: 84px;
+              height: 84px;
+              border-radius: 48px;
+              object-fit: cover;
+              background-color: #EFBDEB;
+              justify-content: center;
+              align-items: center;
+              display:flex;
+              flex-flow: row wrap;
+              text-align: center;
             }
 
             .social-icons a {
-              color: #fffffe;
+              color: #6461A0;
               text-decoration: none;
+           
             }
 
             .link {
-              background-color: #f9bc60;
+              background-color: #B68CB8;
               display: flex;
               align-items: center;
               padding: 5px;
             }
 
             .link a {
-              color: #001e1d;
+              color: #EFBDEB;
               text-decoration: none;
               text-align: center;
               flex-grow: 1;
@@ -68,9 +79,10 @@
               flex-grow: 1;
             }
             .name {
-              color: #fffffe;
+              color: #B68CB8;
               display: flex;
               justify-content: center;
+              font-size: 2em;
             }
 
             .banner {
@@ -98,20 +110,20 @@
     </div>
   
     <div class="social-icons">
-      <a href="https://github.com/bibimbop123" target="_blank" class="thumbnail"> 
+      <a href="https://github.com/bibimbop123" target="_blank" class="thumbnail-links"> 
         GitHub
       </a>
   
-      <a href="https://www.linkedin.com/in/raghubetina/" target="_blank" class="thumbnail">
+      <a href="https://www.linkedin.com/in/briankim47/" target="_blank" class="thumbnail-links">
         LinkedIn
       </a>
   
-      <a href="https://www.instagram.com/raghubetina/" target="_blank" class="thumbnail">
-        Instagram
+      <a href="https://kanyemotivation.netlify.app/" target="_blank" class="thumbnail-links">
+        Kanye Quote Generator
       </a>
   
-      <a href="https://twitter.com/raghubetina" target="_blank" class="thumbnail">
-        Twitter
+      <a href="https://bktimer.netlify.app/" target="_blank" class="thumbnail-links">
+        Timer and Stopwatch
       </a>
     </div>
   
